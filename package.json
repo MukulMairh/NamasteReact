@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+  "parcel": "^2.12.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
+},
+  "name": "namastereact",
+  "description": "- Printing using HTML\r - Printing using JS\r - Printing using\r - Importing Js using cdn\r -",
+  "version": "1.0.0",
+  
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukulMairh/NamasteReact.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "mukul"
+  ],
+  "author": "Mukul Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MukulMairh/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/MukulMairh/NamasteReact#readme",
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

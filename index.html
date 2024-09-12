@@ -21,18 +21,12 @@
             const root = document.getElementById("root");
             root.appendChild(heading);
         </script> -->
-
-
         <!-- Bringing React to our code using cdn -->
         <!-- Core React algorithm -->
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
         <!-- React DOM which is useful for DOM Operations-->
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-
-
-
-        <script src="app.js"></script>
+        <!-- type="module" needs to be added in order for other import exports to be allowed -->
+        <script type="module" src="app.js"></script>
     </div>
 
 </body>
