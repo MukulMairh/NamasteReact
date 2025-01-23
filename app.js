@@ -28,7 +28,8 @@ const styleCard = {
     backgroundColor: "#f0f0f0"
 }
 
-const RestrauntCard = () => {
+const RestrauntCard = (props) => {
+    console.log(props);
     return (
         <div className="res-card" style={styleCard}>
             <div className="res-image-container">
@@ -36,11 +37,10 @@ const RestrauntCard = () => {
                 <img className="res-logo" alt="res-logo" src="https://w7.pngwing.com/pngs/524/137/png-transparent-restaurant-logo-illustration-gluten-free-diet-logo-celiac-disease-wheat-restaurant-logo-emblem-food-free-logo-design-template.png"></img>
             </div>
             <div className="res-name">
-                <h3>Meghna Foods</h3>
             </div>
-            <h4>Biryani, Nort India, Asian </h4>
-            <h4>4.4 stars</h4>
-            <h4>38 mins</h4>
+            <h4>{props.resName} </h4>
+            <h4>{props.cuisine}</h4>
+            <h4>{props.rating}</h4>
 
         </div>
     )
@@ -52,22 +52,9 @@ const Body = () => {
             <div className="search">Search</div>
             <div className="res-container">
                 {/* Here goes many restraunt cards */}
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
-                <RestrauntCard />
+                {/* To send the data dynamically, we use props, props are nothing but arguments. */}
+                <RestrauntCard resName="Meghana Foods" cuisine="Biryani, Nort Indian, Asian" rating="4.4" />
+                <RestrauntCard resName="KFC" cuisine="Fast food, burger" rating="4.0" />
             </div>
         </div>
 
