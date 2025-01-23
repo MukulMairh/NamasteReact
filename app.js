@@ -53,6 +53,21 @@ const Body = () => {
             <div className="res-container">
                 {/* Here goes many restraunt cards */}
                 <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
+                <RestrauntCard />
             </div>
         </div>
 

@@ -24,10 +24,10 @@
 }
 
 .res-card{
+    margin: .2em;
     padding : 0.1em;
     width: 200px;
-    height: 300px;
-   
+    height: 300px; 
 }
 
 .res-card  :hover{
@@ -38,4 +38,9 @@
 .res-logo{
     
     width: 100%;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
 }
